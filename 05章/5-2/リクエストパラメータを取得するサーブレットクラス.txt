@@ -1,0 +1,11 @@
+@WebServlet("/FormServlet")
+public class FormServlet extends HttpServlet {
+  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    // リクエストパラメータの文字コードを指定
+    request.setCharacterEncoding("UTF-8");
+　
+    // リクエストパラメータの取得
+    String name = request.getParameter("name");
+    String gender = request.getParameter("gender");
+  }
+}

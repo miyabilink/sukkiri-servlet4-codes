@@ -1,0 +1,14 @@
+String name = "湊 雄輔";
+// HTMLをレスポンス
+response.setContentType("text/html; charset=UTF-8");
+PrintWriter out = response.getWriter();
+out.println("<!DOCTYPE html>");
+out.println("<html>");
+out.println("<head>");
+out.println("<meta charset=\"UTF-8\" />");
+out.println("<title>" + name + "のプロフィール</title>");
+out.println("</head>");
+out.println("<body>");
+out.println(name + "は、かっこいい？ "); // out.println(name + "は、かっこいい！最高！ ");
+out.println("</body>");
+out.println("</html>");

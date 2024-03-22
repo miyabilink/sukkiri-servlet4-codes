@@ -1,0 +1,1 @@
+// アプリケーションスコープに保存するインスタンスの生成Human human = new Human("湊 雄輔", 23);// ServletContextインスタンスの取得ServletContext application = this.getServletContext();// アプリケーションスコープにインスタンスを保存application.setAttribute("human", human);// アプリケーションスコープからインスタンスを取得Human h = (Human)application.getAttribute("human");// アプリケーションコープからインスタンスを削除application.removeAttribute("human");

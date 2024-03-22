@@ -1,0 +1,8 @@
+// リクエストスコープに保存するインスタンスの生成
+Human human = new Human("湊 雄輔", 23);
+
+// リクエストスコープにインスタンスを保存
+request.setAttribute("human", human);
+
+// リクエストスコープからインスタンスを取得
+Human h = (Human)request.getAttribute("human");

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSPのサンプル</title>
+</head>
+<body>
+私の名前は<湊　雄輔。年齢は23才です。
+</body>
+</html>
