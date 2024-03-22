@@ -1,6 +1,6 @@
 # スッキリわかるサーブレット&JSP入門 第4版　書籍掲載コード
 
-サーブレット&JSP入門書籍『[スッキリわかるサーブレット&JSP入門 第4版](https://sukkiri.jp/books/sukkiri_servlet4)』（インプレス, 2023）の誌面掲載プログラムリスト集です。[LICENSE.txt](https://github.com/miyabilink/sukkiri-servlet4-codes/raw/main/LICENSE.txt) の条件に基づきご利用ください。  
+サーブレット&JSP入門書籍『[スッキリわかるサーブレット&JSP入門 第4版](https://sukkiri.jp/books/sukkiri_servlet4)』（インプレス, 2024）の誌面掲載プログラムリスト集です。[LICENSE.txt](https://github.com/miyabilink/sukkiri-servlet4-codes/raw/main/LICENSE.txt) の条件に基づきご利用ください。  
 
 ## 配布用ZIPファイル
 研修や講義に便利な再配布用ZIPファイルは　→ 　🎁 [sukkiri-servlet4-codes.zip](https://github.com/miyabilink/sukkiri-servlet4-codes/releases/latest/download/sukkiri-servlet4-codes.zip)
