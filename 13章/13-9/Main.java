@@ -49,7 +49,7 @@ public class Main extends HttpServlet {
       HttpSession session = request.getSession();
       User loginUser = (User) session.getAttribute("loginUser");
 
-      // つぶやきをつぶやきリストに追加
+      // つぶやきを作成してつぶやきリストに追加
       Mutter mutter = new Mutter(loginUser.getName(), text);
       PostMutterLogic postMutterLogic = new PostMutterLogic();
       postMutterLogic.execute(mutter);
@@ -63,7 +63,7 @@ public class Main extends HttpServlet {
     List<Mutter> mutterList = getMutterListLogic.execute();
     request.setAttribute("mutterList", mutterList);
 
-    // フォワード
+    // メイン画面にフォワード
     RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/jsp/main.jsp");
     dispatcher.forward(request, response);
   }
