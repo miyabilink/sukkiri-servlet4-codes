@@ -60,7 +60,7 @@ public class Main extends HttpServlet {
       HttpSession session = request.getSession();
       User loginUser = (User) session.getAttribute("loginUser");
 
-      // つぶやきをつぶやきリストに追加
+      // つぶやきを作成してつぶやきリストに追加
       Mutter mutter = new Mutter(loginUser.getName(), text);
       PostMutterLogic postMutterLogic = new PostMutterLogic();
       postMutterLogic.execute(mutter, mutterList);

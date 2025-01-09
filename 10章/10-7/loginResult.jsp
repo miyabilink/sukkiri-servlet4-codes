@@ -19,7 +19,7 @@ User loginUser = (User) session.getAttribute("loginUser");
   <a href="Main">つぶやき投稿・閲覧へ</a>
 <% } else { %>
   <p>ログインに失敗しました</p>
-  <a href="index.jsp">TOPへ</a>
+  <a href="index.jsp">トップへ</a>
 <% } %>
 </body>
 </html>

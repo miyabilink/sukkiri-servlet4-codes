@@ -19,7 +19,7 @@ public class SelectEmployees {
       String sql = "SELECT ID,NAME,AGE FROM EMPLOYEES";
       PreparedStatement pStmt = conn.prepareStatement(sql);
 
-      // SELECTを実行し、結果表（ResultSet）を取得
+      // SELECT文を実行し、結果表（ResultSet）を取得
       ResultSet rs = pStmt.executeQuery();
 
       // 結果表に格納されたレコードの内容を表示

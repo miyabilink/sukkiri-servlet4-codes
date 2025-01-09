@@ -30,7 +30,7 @@ public class MuttersDAO {
       String sql = "SELECT ID,NAME,TEXT FROM MUTTERS ORDER BY ID DESC";
       PreparedStatement pStmt = conn.prepareStatement(sql);
 
-      // SELECTを実行
+      // SELECT文を実行
       ResultSet rs = pStmt.executeQuery();
 
       // SELECT文の結果をArrayListに格納

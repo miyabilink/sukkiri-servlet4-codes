@@ -14,7 +14,7 @@ User registerUser = (User) session.getAttribute("registerUser");
 <p>下記のユーザーを登録します</p>
 <p>
 ログインID：<%= registerUser.getId() %><br>
-名前:<%= registerUser.getName() %><br>
+名前：<%= registerUser.getName() %><br>
 </p>
 <a href="RegisterUser">戻る</a>
 <a href="RegisterUser?action=done">登録</a>
