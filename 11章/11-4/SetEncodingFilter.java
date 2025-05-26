@@ -10,7 +10,7 @@ import jakarta.servlet.http.HttpFilter;
 
 @WebFilter("/*")
 public class SetEncodingFilter extends HttpFilter {
-	protected void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
+	public void doFilter(HttpServletRequest request, HttpServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
 		request.setCharacterEncoding("UTF-8");
 		chain.doFilter(request, response);
